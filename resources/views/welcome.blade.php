@@ -40,6 +40,14 @@
                 background-color: #45a049;
             }
 
+            .block.red {
+                background-color: #f44336; /* Vermelho para menos utilizadas */
+            }
+
+            .block.red:hover {
+                background-color: #c62828; /* Tom mais escuro de vermelho ao passar o mouse */
+            }
+
         </style>
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
@@ -126,18 +134,15 @@ $(document).ready(function() {
                 }
                 var montaTreeMap = '';
 
-                // Calcula o total para calcular o percentual
-                var total = 100;
-
                 $.each(data, function(language, percentual) {
-                    // Calcula o tamanho proporcional
-                    var size = (percentual / total) * 100;
+                    var size = percentual;
 
-                    // Adiciona o bloco ao HTML
-                    montaTreeMap += "<div class='block' style='flex: " + size + "%;' title='" + language + ": " + percentual + "%'>" + language + " (" + percentual + "%)" + "</div>";
+                // Determina a classe de cor com base no percentual
+                var colorClass = percentual < 5 ? 'red' : '';
+
+                // Adiciona o bloco ao HTML
+                montaTreeMap += "<div class='block " + colorClass + "' style='flex: " + size + "%;' title='" + language + ": " + percentual + "%'>" + language + " (" + percentual + "%)" + "</div>";
                 });
-
-                console.log(data)
                 
                 //Insere o html na div
                 $('.treemap').html(montaTreeMap);

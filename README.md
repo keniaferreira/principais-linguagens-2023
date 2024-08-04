@@ -4,7 +4,7 @@
 
 ## Fiz uma pesquisa no chat GPT, sobre as principais linguagens de programação utilizadas em 2023. 
 
-## De acoro com o chat, os percentuais exatos de uso das linguagens de programação podem variar dependendo da fonte e do critério utilizado. Entretanto, alguns relatórios e pesquisas de mercado oferecem estimativas aproximadas do uso das principais linguagens. As seguintes fontes foram utilizadas:
+## De acordo com o chat, os percentuais exatos de uso das linguagens de programação podem variar dependendo da fonte e do critério utilizado. Entretanto, alguns relatórios e pesquisas de mercado oferecem estimativas aproximadas do uso das principais linguagens. As seguintes fontes foram utilizadas:
 
 ## TIOBE Index: Classifica a popularidade das linguagens de programação com base em diversos fatores, como a quantidade de pesquisas na web e a atividade em fóruns e sites de desenvolvedores.
 
@@ -14,16 +14,26 @@
 
 ## Resultado:
 
-## JavaScript: 12%
-## Python: 12%
-## Java: 10%
-## C#: 7-10%
-## C/C++: 9%
-## TypeScript: 6%
-## Go (Golang): 4%
-## Rust: 3%
-## PHP: 5%
-## Kotlin: 3%
+## JavaScript - 20%
+## Python - 15%
+## Java - 10%
+## C# - 8%
+## C++ - 8%
+## TypeScript - 7%
+## PHP - 6%
+## Swift - 5%
+## Kotlin - 5%
+## Ruby - 4%
+## Go (Golang) - 4%
+## R - 3%
+## Rust - 2%
+## Dart - 2%
+## Perl - 2%
+## MATLAB - 2%
+## Scala - 1%
+## Shell Script - 1%
+## SQL - 1%
+## Objective-C - 1%
 
 
 ## Como Rodar o aplicativo:
